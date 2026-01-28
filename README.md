@@ -53,48 +53,8 @@ This exposes **confidence as a physical observable**, not an inferred statistic.
 ---
 
 ## Experimental Results
-
-### 1. Winner Probability vs Bias
-Shows how decision outcomes shift as temporal drift is applied.
-
-📍 **Location:** `plots/winner_vs_bias.png`
-
 ---
-
-### 2. Decision Latency vs Bias (Key Result)
-As bias increases, decisions resolve faster and with lower variance.
-
-📍 **Location:** `plots/latency_vs_bias.png`
-
-This directly demonstrates **confidence encoded as time**.
-
----
-
-### 3. Margin (Δt) vs Bias
-Arrival-time separation grows with bias, indicating increasingly decisive outcomes.
-
-📍 **Location:** `plots/delta_vs_bias.png`
-
----
-
-### 4. Median Latency vs Bias (Summary Plot)
-A compact visualization of TSU behavior: stronger bias → faster commitment.
-
-📍 **Location:** `plots/median_latency_vs_bias.png`
-
----
-
-## Why This Is Not a p-bit
-
-| Aspect | p-bit | TSU |
-|------|------|-----|
-| Random variable | State | **Time** |
-| Sampling | Repeated | **Single-shot** |
-| Confidence | Estimated | **Directly observable** |
-| Noise usage | Thresholded | **Integrated over time** |
-| Output | Bit | **(Decision, Latency, Δt)** |
-
-TSUs operate in the **time domain**, not the state domain.
+All the results are under plots folder
 
 ---
 
