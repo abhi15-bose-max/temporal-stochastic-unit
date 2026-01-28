@@ -54,7 +54,7 @@ This exposes **confidence as a physical observable**, not an inferred statistic.
 
 ## Experimental Results
 ---
-All the results are under plots folder
+All the results are under plots and data folder
 
 ---
 
